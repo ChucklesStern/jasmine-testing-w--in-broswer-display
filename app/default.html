@@ -1,12 +1,37 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" 
-			  href="es6/spec/support/jasmine/jasmine.css">
-		<script src="traceur/traceur.js"></script>
-		<script src="es6/spec/support/jasmine/jasmine.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="es6/spec/support/jasmine/jasmine.css">
+		<script  src="es6/spec/support/jasmine/jasmine.js"></script>
+		
 		<script src="es6/spec/support/jasmine/jasmine-html.js"></script>
 		<script src="es6/spec/support/jasmine/boot.js"></script>
-		<script src="es6/spec/const.js"></script>
+    
+    <script data-require="traceur@*" data-semver="0.0.0-20140302" src="https://traceur-compiler.googlecode.com/git/bin/traceur.js"></script>
+       <script>
+        new traceur.WebPageTranscoder(document.location.href).run();
+        traceur.options.experimental = true;
+  </script>
+    <script data-require="traceur@*" data-semver="0.0.0-20140302" src="https://traceur-compiler.googlecode.com/git/src/bootstrap.js"></script>
+
+	
+
+	
+		
+<script src="es6/spec/const.js"></script>
+		<script src="es6/spec/defaults.js"></script>
+		<script src="es6/spec/destructuring.js"></script>
+		<script src="es6/spec/let.js"></script>
+		<script src="es6/spec/rest.js"></script>
+		<script src="es6/spec/spread.js"></script>
+		<script src="es6/spec/templates.js"></script>
+
+
+		
+
+
+	
+	
 		
 	</head>
 	<body>

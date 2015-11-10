@@ -1,5 +1,5 @@
 describe("default parameters", function(){
-
+ "use strict";
 	it("provides defaults", function(){
 
 		var doWork = function(name="Scott") {						

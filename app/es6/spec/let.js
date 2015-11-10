@@ -1,5 +1,6 @@
-describe("how let works", function(){
 
+describe("how let works", function(){
+ "use strict";
 	it("will provide block scoping, unlike var", function(){
 
 		var doWork = function(flag){

@@ -1,3 +1,4 @@
+"use strict"
 describe("rest parameters", function(){
 
 	it("is like varargs", function(){

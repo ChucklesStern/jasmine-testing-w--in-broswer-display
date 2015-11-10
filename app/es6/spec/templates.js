@@ -1,5 +1,6 @@
-describe("template literals", function(){
 
+describe("template literals", function(){
+ "use strict";
 	it("can easily combine literals and data", function(){
 
 		let doWork = function(name){

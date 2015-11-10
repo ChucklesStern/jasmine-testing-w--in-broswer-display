@@ -1,5 +1,6 @@
-describe("the spread", function(){
 
+describe("the spread", function(){
+ "use strict";
 	it("can spread an array across parameters", function(){
 
 		let doWork = function(x, y, z) {
